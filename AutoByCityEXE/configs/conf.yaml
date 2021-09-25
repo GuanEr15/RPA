@@ -1,0 +1,4 @@
+SourceData: "./resource/data.xlsx"                                                    # 读取文件路径
+SourceSheets: "正本清源不一致核查情况,场地费未置0核查情况,考核扣罚未置0核查情况"                 # 读取的sheet表，用英文’ , ‘号分割
+ToSheets: "手段1,手段2,手段3"                                                           # 需要生成的sheet表，数量与上一个参数数量相同，用英文’ , ‘号分割
+SplitByForm: "0,0,0"                                                                  # 根据第几列分割表格,从0开始计数
